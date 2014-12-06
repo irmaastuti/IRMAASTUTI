@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.irmaevi.wtcshop.Red" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/red2" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="red jambe (unique and creative)
+Red Jambe, yang terletak di lantai 2 Blok C, WTC Batanghari. 
+Di toko ini, menjual aksesoris, mulai dari cincin biasa satu jari,dua jari, gelang, kalung, bando anak-anak, sal, baju, dan aksesoris lainnya. Semuanya bisa memuaskan kaum hawa yang suka memakai aksesoris
+Untuk model terbaru, di Red Jambe, di toko ini ada cincin tiga jari, dan gelang korea stainkless dengan versi baru. Cincin tiga jari dengan motif baru yaitu bunga rangkai, bintang love, dan seruling. Sedangkan gelangnya dengan motif baru juga, ada motif pagar, payet, harmes, dan lainnya.
+Mengenai harga, untuk cincin mulai dari Rp 35 ribu-Rp 45 ribu. Harga gelang jual dari harga Rp 45 ribu-Rp 65 ribu. Harga yang murah sangat cocok bagi kantong Anda. Imah, karyawan Red Jambe, setiap satu bulan sekali jenis aksesoris baru pasti datang. Karena toko ini ingin memuaskan konsumennya." />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WTCShop</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_outlet">OutletTanjabTim</string>
+    <string name="title_activity_red">RedJambe</string>
+    <string name="title_activity_vive">Vive</string>
+
+</resources>
